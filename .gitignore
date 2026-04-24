@@ -1,6 +1,28 @@
-"build/" 
-"dist/" 
-"*.class" 
-"web/" 
-"META-INF/" 
-"WEB-INF/" 
+# Dossiers de build
+build/
+dist/
+target/
+
+# Fichiers compilés
+*.class
+*.jar
+*.war
+
+# NetBeans project files
+nbproject/private/
+nbproject/build-impl.xml
+nbproject/genfiles.properties
+
+# Fichiers de configuration IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
